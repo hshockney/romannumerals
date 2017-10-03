@@ -33,4 +33,7 @@ class Test_romannumerals <Minitest::Test
 	def test_that_forty_equals_XL
 		assert_equal("XL",converter(40))
 	end
+	def test_that_fifty_equals_L
+		assert_equal("L",converter(50))
+	end
 end
