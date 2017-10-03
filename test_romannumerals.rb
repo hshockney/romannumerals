@@ -57,4 +57,7 @@ class Test_romannumerals <Minitest::Test
 	def test_that_eight_hundred_equals_DCCC
 		assert_equal("DCCC",converter(800))
 	end
+	def test_that_nine_hundred_equals_CM
+		assert_equal("CM",converter(900))
+	end
 end
