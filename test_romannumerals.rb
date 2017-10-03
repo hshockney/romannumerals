@@ -42,4 +42,7 @@ class Test_romannumerals <Minitest::Test
 	def test_that_ninety_equals_XC
 		assert_equal("XC",converter(90))
 	end
+	def test_that_ninetyseven_equals_XCVII
+		assert_equal("XCVII",converter(97))
+	end
 end
