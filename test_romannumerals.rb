@@ -48,4 +48,7 @@ class Test_romannumerals <Minitest::Test
 	def test_that_one_hundred_equals_C
 		assert_equal("C",converter(100))
 	end
+	def test_that_fourhundred_equals_CD
+		assert_equal("CD",converter(400))
+	end
 end
