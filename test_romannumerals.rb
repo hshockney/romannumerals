@@ -15,4 +15,7 @@ class Test_romannumerals <Minitest::Test
 	def test_that_six_equals_VI
 		assert_equal("VI",converter(6))
 	end
+	def test_that_nine_equals_IX
+		assert_equal("IX",converter(9))
+	end
 end
