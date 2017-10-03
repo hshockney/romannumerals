@@ -21,4 +21,7 @@ class Test_romannumerals <Minitest::Test
 	def test_that_four_equals_IV
 		assert_equal("IV",converter(4))
 	end
+	def test_that_ten_equals_X
+		assert_equal("X",converter(10))
+	end
 end
