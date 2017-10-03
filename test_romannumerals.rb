@@ -27,4 +27,7 @@ class Test_romannumerals <Minitest::Test
 	def test_that_twelve_equals_XII
 		assert_equal("XII",converter(12))
 	end
+	def test_that_fourteen_equals_XIV
+		assert_equal("XIV",converter(14))
+	end
 end
