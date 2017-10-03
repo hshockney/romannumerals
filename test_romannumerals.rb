@@ -12,4 +12,7 @@ class Test_romannumerals <Minitest::Test
 	def test_that_three_equals_III
 		assert_equal("III",converter(3))
 	end
+	def test_that_six_equals_VI
+		assert_equal("VI",converter(6))
+	end
 end
