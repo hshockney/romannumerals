@@ -60,4 +60,7 @@ class Test_romannumerals <Minitest::Test
 	def test_that_nine_hundred_equals_CM
 		assert_equal("CM",converter(900))
 	end
+	def test_that_one_thousand_equals_M
+		assert_equal("M",converter(1000))
+	end
 end
