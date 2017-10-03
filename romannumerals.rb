@@ -1,3 +1,7 @@
 def converter(num)
-	"I"
+	if num ==1
+		"I"
+	else
+		"V"
+	end
 end
